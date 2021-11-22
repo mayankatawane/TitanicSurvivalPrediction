@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Survival Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+    <section>
+
+        <h1>Please Enter Specific Values in below fields</h1>
+
+        <div class="container">
+            <form action="/predict" method="POST">
+
+                <div class="form-group">
+                    <label>Pclass</label>
+                    <input type="text" class="form-control" name="pclass" id="pclass" placeholder="Enter Pclass">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Age</label>
+                    <input type="text" class="form-control" name="age" id="age" placeholder="Enter Age">
+                </div>
+
+                <div class="form-group">
+                    <label for="">SibSp</label>
+                    <input type="text" class="form-control" name="sibsp" id="sibsp" placeholder="Enter SibSp">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Parch</label>
+                    <input type="text" class="form-control" name="parch" id="parch" placeholder="Enter Parch">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Fare</label>
+                    <input type="text" class="form-control" name="fare" id="fare" placeholder="Enter Fare">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Embarked</label>
+                    <input type="text" class="form-control" name="embarked" id="embarked" placeholder="Enter Embarked">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Sex</label>
+                    <input type="text" class="form-control" name="sex" id="sex" placeholder="Enter Sex">
+                </div>
+
+                <input id="new11" type="submit" value="Predict">
+
+    </section>
+
+
+</body>
+
+</html>
